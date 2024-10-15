@@ -1,8 +1,12 @@
-Git status é para ver as alterações e status dos arquivos
+devo seguir essa ordem para ficar melhor
 
 Git clone puxa oq tá na nuvem pro pc
 
-git commit é aqui que joga na nuvem
+Git status é para ver as alterações e status dos arquivos
+
+git add com um ponto, eu uso para dicioanr tudo oq tem na pasta do repositorio(onbde eu tiro os arquivos para programar)
+
+git commit -m "" aqui é onde eu coloco uma mensagem do que foi mudado antes de fazer um push
 
 git push é onde ue atualizo
 
