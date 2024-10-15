@@ -1,0 +1,9 @@
+Git status é para ver as alterações e status dos arquivos
+
+Git clone puxa oq tá na nuvem pro pc
+
+git commit é aqui que joga na nuvem
+
+git push é onde ue atualizo
+
+git pull
