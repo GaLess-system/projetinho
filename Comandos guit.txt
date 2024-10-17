@@ -8,6 +8,6 @@ git add com um ponto, eu uso para dicioanr tudo oq tem na pasta do repositorio(o
 
 git commit -m "" aqui é onde eu coloco uma mensagem do que foi mudado antes de fazer um push
 
-git push é onde ue atualizo
+git push é onde que atualizo no github
 
 git pull
