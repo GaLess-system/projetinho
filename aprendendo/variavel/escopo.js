@@ -7,13 +7,13 @@
 }
 
 {
-    const nome = "Gabriel"
+    const nome = "Gabriel";
 }
-console.log(nome)
+console.log(nome);
 //Assim não funiona
 
-const segundoNome = "Lessa"
+const segundoNome = "Lessa";
 {
-console.log(segundoNome)
+console.log(segundoNome);
 //Assim funciona
 }

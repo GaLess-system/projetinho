@@ -1,7 +1,9 @@
 //LEMBRAR QUE SEMPRE DEVO TRANSITAR ENTRE OS ARQUIVOS USANDO cd.. EU VOLTO PARA A PAGINA E USANDO A PAGINA 
 //Lembrar tambem que o codigo tem que ser escrito nessa ordem
 const primeiroNome = "Gabriel"; //Aqui a gente usa para definir variaveis constantes
-console.log(primeiroNome, "ele tenta");
+const sobrenome = "Lessa";
+let nomeCompleto = primeiroNome + " " + sobrenome;
+console.log(nomeCompleto, "ele tenta");
 console.log(primeiroNome);
 
 //camelCase
@@ -16,3 +18,10 @@ console.log(alturaEmMetros);
 // a forma de interação com o texto no java script é usando o ${variavel} e dentro eu coloco a variavel lembrando que tem que se escrever usando a crase
 
 console.log(`${primeiroNome} e eu tenho ${alturaEmMetros} e no ano passado eu tinha ${idade}`);
+
+
+let nota; //aqui vai dar undefined esse vai ser seu tipo
+nota = 40;//aqui vai imprimir com 40
+
+nota = null; //Aqui ela fica reservada para null, e vai imprimir null
+console.log(nota);
