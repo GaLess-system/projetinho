@@ -1,0 +1,99 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; 
+}
+
+
+body {
+  background-color: #E9EEF7;
+
+  min-height: 100vh;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  padding: 0 80px;
+
+  font-family: 'IBM Plex Sans', sans-serif;
+}
+
+.container {
+  background: #FFFFFF;
+
+  padding: 90px 60px;
+  border-radius: 32px;
+}
+
+.container__title {
+  color: #0C1727;
+
+  margin-bottom: 65px;
+
+  font-style: normal;
+  font-weight: bold;
+  font-size: 28px;
+
+  line-height: 36px;
+  text-align: center;
+}
+
+.collection {
+  padding: 50px;
+  padding-top: 35px;
+  border-radius: 5px;
+}
+
+.collection--purple {
+  background: #F8F2FA;
+}
+
+.collection--pink {
+  background: #FAF2F4;
+}
+
+.collection__icon {
+  background: #FFF;
+
+  margin-bottom: 13px;
+  padding: 10px;
+  border-radius: 50%;
+}
+
+.collection__title {
+  margin-bottom: 10px;
+
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  
+  line-height: 26px;
+}
+
+.collection__description {
+  margin-bottom: 35px;
+
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+
+  line-height: 21px;
+  text-align: center;
+}
+
+.collection__button {
+  all: unset;
+  cursor: pointer;
+  box-sizing: border-box;
+
+  background: #0C1727;
+  color: #FFF;
+
+  padding: 12px 20px;
+  border-radius: 3px;
+
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 21px;
+}

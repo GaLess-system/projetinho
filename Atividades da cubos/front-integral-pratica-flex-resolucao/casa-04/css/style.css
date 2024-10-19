@@ -1,0 +1,131 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; 
+}
+
+
+body {
+  background: #DADDE1;
+
+  min-height: 100vh;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  padding: 50px 0;
+
+  font-family: 'Roboto', sans-serif;
+}
+
+.nearby-friends {
+  background: #FFFFFF;
+  box-shadow: 0px 24px 74px -20px rgba(130, 148, 173, 0.44);
+
+  padding: 60px 50px;
+  border-radius: 10px;
+}
+
+.nearby-friends__title {
+  font-size: 22px;
+
+  line-height: 26px;
+}
+
+.nearby-friends__link {
+  color: #000000;
+
+  font-size: 16px;
+  line-height: 19px;
+}
+
+.person-add-card {
+  padding: 25px 35px 6px 35px;
+  border: 1px solid #E5E5E5;
+  border-radius: 10px;
+}
+
+.person-add-card__profile-picture, .contacts-list__contact__profile-picture {
+  width: 65px;
+  height: 65px;
+
+  border-radius: 50%;
+}
+
+.person-add-card__name {
+  font-weight: 500;
+  font-size: 18px;
+  
+  line-height: 21px;
+}
+
+.person-add-card__add-button {
+  cursor: pointer;
+
+  background-color: #000;
+
+  padding: 10px;
+  border-radius: 50%;
+}
+
+.contacts-list {
+  background: #FFFFFF;
+  box-shadow: 0px 24px 74px -20px rgba(130, 148, 173, 0.44);
+
+  width: 450px;
+
+  padding: 50px;
+  border-radius: 15px;
+}
+
+.contacts-list__title {
+  font-size: 22px;
+
+  line-height: 26px;
+}
+
+.contacts-list__count {
+  color: #040405;
+
+  padding: 6px;
+  border: 1px solid #000000;
+  border-radius: 25px;
+
+  font-weight: bold;
+  font-size: 22px;
+
+  line-height: 26px;
+}
+
+.contacts-list__contact__name {
+  margin-bottom: 5px;
+  
+  font-weight: 500;
+  font-size: 18px;
+  
+  line-height: 21px;
+}
+
+.contacts-list__contact__location {
+  font-size: 14px;
+  line-height: 16px;
+}
+
+.contacts-list__button {
+  all: unset;
+  cursor: pointer;
+  box-sizing: border-box;
+
+  background-color: #000;
+  color: #FFFFFF;
+
+  padding: 18px 30px;
+  border-radius: 60px;
+
+  font-weight: bold;
+  font-size: 16px;
+
+  line-height: 19px;
+}

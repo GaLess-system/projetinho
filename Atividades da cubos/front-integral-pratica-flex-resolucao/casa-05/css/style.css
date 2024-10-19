@@ -1,0 +1,99 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; 
+}
+
+
+body {
+  background-color: rgba(255, 106, 149, 0.1);;
+
+  min-height: 100vh;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  background: #FFFFFF;
+  box-shadow: 0px 16px 45px -15px rgba(2, 5, 132, 0.25);
+
+  padding: 30px;
+  border-radius: 10px;
+}
+
+.card__profile-picture {
+  box-shadow: 0px 8px 22.5px -7.5px rgba(2, 5, 132, 0.2);
+
+  width: 84px;
+  height: 84px;
+
+  margin-right: 30px;
+  border: 8px solid #FFF;
+  border-radius: 50%;
+}
+
+.card__name {
+  color: #202142;
+
+  font-family: 'Merriweather', serif;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 22px;
+
+  line-height: 28px;
+}
+
+.card__occupation {
+  color: #202142;
+
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+
+  line-height: 24px;
+}
+
+.button {
+  all: unset;
+  cursor: pointer;
+  box-sizing: border-box;
+
+  padding: 15px 30px;
+  border-radius: 10px;
+
+  font-family: 'Poppins', sans-serif;
+}
+
+.button--light {
+  background: #FFF;
+  color: #202142;
+
+  border: 1px solid #A4A4CB;
+}
+
+.button--dark {
+  background: #202142;
+  color: #FFF;
+}
+
+.button__icon {
+  margin-right: 10px;
+}
+
+.design-miniature--small {
+  max-width: 165px;
+  height: auto;
+
+  border-radius: 10px;
+}
+
+.design-miniature--medium {
+  max-width: 220px;
+  height: auto;
+
+  border-radius: 13px;
+}

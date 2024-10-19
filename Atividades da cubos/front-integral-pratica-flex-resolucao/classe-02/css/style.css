@@ -1,0 +1,121 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; 
+}
+
+body {
+  background-color: #FFFAF2;
+
+  min-height: 100vh;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  background: #FFFFFF;
+  box-shadow: 0px 10px 25px rgba(220, 205, 181, 0.42);
+  
+  border-radius: 15px;
+
+  font-family: 'Montserrat', sans-serif;
+}
+
+.card--large {
+  max-width: 520px;
+
+  padding: 20px 90px 55px 90px;
+}
+
+.card--small {
+  max-height: 375px;
+
+  padding: 20px 45px 35px 45px;
+}
+
+.card__close-button {
+  display: block;
+
+  margin-left: auto;
+
+  cursor: pointer;
+}
+
+.card--large .card__close-button {
+  margin-right: -70px;
+}
+
+.card__title {
+  color: #212D59;
+
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+
+  line-height: 27px;
+  text-align: center;
+}
+
+.emoji-button__img {
+  margin-bottom: 15px;
+}
+
+.emoji-button__text {
+  color: #212D59;
+
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+
+  opacity: 0.5;
+}
+
+.card__button {
+  all: unset;
+  box-sizing: border-box;
+  cursor: pointer;
+
+  background: #2F2D2C;
+  color: #FFF;
+
+  padding: 18px 45px;
+  border-radius: 5px;
+
+  text-align: center;
+}
+
+.card__button--medium {
+  width: 200px;
+}
+
+.card__icon {
+  margin-bottom: 15px;
+}
+
+.card__description {
+  color: #212D59;
+
+  max-width: 275px;
+
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  text-align: center;
+}
+
+.card__comment {
+  color: #212D59;
+
+  margin-right: 34px;
+
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+
+  opacity: 0.5;
+}
